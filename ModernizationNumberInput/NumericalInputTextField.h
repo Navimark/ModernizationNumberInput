@@ -25,6 +25,5 @@ UIKIT_EXTERN NSString *const kNumericalPickerDidBecomeFirstResponderNotification
 @property (nonatomic , copy) void(^finishBarButtonAction)(NSNumber *inputResult);
 
 @property (nonatomic , strong) NSDictionary *dataSourceDict;
-//@property (nonatomic , assign) NSInteger dotIndex;
 
 @end

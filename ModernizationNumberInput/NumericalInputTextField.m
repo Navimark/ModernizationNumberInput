@@ -145,7 +145,6 @@
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
-    //先整数，然后小数点，然后小数
     NSArray *integralDatas = self.dataSourceDict[kIntegralPartDataSource];
     NSArray *fractionalDatas = self.dataSourceDict[kFractionalPartDataSource];
     
@@ -245,7 +244,7 @@
     self.currentPickedNumber = @(result);
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
     [formatter setMaximumFractionDigits:fractionalDatas.count];
-    [formatter setMinimumFractionDigits:0];
+    [formatter setMinimumFractionDigits:fractionalDatas.count];
     [formatter setMinimumIntegerDigits:1];
     self.text = [formatter stringFromNumber:self.currentPickedNumber];
 }
@@ -291,12 +290,12 @@
 }
 
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect {
+ // Drawing code
+ }
+ */
 
 NSString *const kFractionalPartDataSource                           = @"kFractionalPartDataSource";
 NSString *const kIntegralPartDataSource                             = @"kIntegralPartDataSource";
