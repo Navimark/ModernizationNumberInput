@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DD905CD1A788EF4007AA423 /* cloc-1.62.pl in Resources */ = {isa = PBXBuildFile; fileRef = 5DD905CC1A788EF3007AA423 /* cloc-1.62.pl */; };
 		5DF5358F1A762948009D54FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF5358E1A762948009D54FA /* main.m */; };
 		5DF535921A762948009D54FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF535911A762948009D54FA /* AppDelegate.m */; };
 		5DF535951A762948009D54FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF535941A762948009D54FA /* ViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DD905CC1A788EF3007AA423 /* cloc-1.62.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = "cloc-1.62.pl"; sourceTree = "<group>"; };
 		5DF535891A762948009D54FA /* ModernizationNumberInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernizationNumberInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF5358D1A762948009D54FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DF5358E1A762948009D54FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		5DF5358B1A762948009D54FA /* ModernizationNumberInput */ = {
 			isa = PBXGroup;
 			children = (
+				5DD905CC1A788EF3007AA423 /* cloc-1.62.pl */,
 				5DF535901A762948009D54FA /* AppDelegate.h */,
 				5DF535911A762948009D54FA /* AppDelegate.m */,
 				5DF535931A762948009D54FA /* ViewController.h */,
@@ -207,6 +210,7 @@
 				5DF535981A762948009D54FA /* Main.storyboard in Resources */,
 				5DF5359D1A762948009D54FA /* LaunchScreen.xib in Resources */,
 				5DF5359A1A762948009D54FA /* Images.xcassets in Resources */,
+				5DD905CD1A788EF4007AA423 /* cloc-1.62.pl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +424,7 @@
 				5DF535AE1A762949009D54FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DF535AF1A762949009D54FA /* Build configuration list for PBXNativeTarget "ModernizationNumberInputTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +433,7 @@
 				5DF535B11A762949009D54FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
